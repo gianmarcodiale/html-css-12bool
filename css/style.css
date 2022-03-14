@@ -1,0 +1,14 @@
+[class^="col-"] {
+    background-color: rgb(220, 20, 60);
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+}
+
+.nested {
+    background-color: rgb(255, 238, 0);
+    height: 40px;
+}
+
+.col-12.white {
+    background-color: rgb(255, 255, 255);
+}

@@ -1,21 +1,15 @@
-/* COMMON */
+ /* Common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  .debug [class^="col"] {
-    background-color: aquamarine;
-    border: 1px solid white;
-    height: 200px;
-  }
-  
   .img-fluid {
     max-width: 100%;
   }
   
-  /* UTILITY */
+  /* Utility */
   .d-flex {
     display: flex;
   }
@@ -25,10 +19,14 @@
   }
 
   .justify-center {
-      justify-content: center;
+    justify-content: center;
+  }
+
+  .col-gap-1 {
+    column-gap: 1rem;
   }
   
-  /* TYPOGRAPHY */
+  /* Typograpy */
   .text-center {
     text-align: center;
   }
@@ -37,7 +35,13 @@
     text-align: right;
   }
   
-  /* SPACES */
+  
+  .display-1 {
+    font-size: 4rem;
+  }
+  
+  
+  /* Utility spaces */
   
   .p-1 {
     padding: 1rem;
@@ -51,7 +55,7 @@
     margin-top: 3rem;
   }
   
-  /* GRID STRUCTURE */
+  /* Grid structure */
   
   
   .container {
@@ -186,10 +190,6 @@
   .col-offset-11 {
     margin-left: calc((100% / 12) * 11);
   }
-
-  /* MEDIA QUERIES */
-
-  /* Media sm */
   
   @media screen and (min-width: 576px) {
     .col-sm-1 {
@@ -251,7 +251,8 @@
       flex-basis: 100%;
       max-width: 100%;
     }
-    
+  
+  
     .col-sm-offset-1 {
       margin-left: calc((100% / 12) * 1);
     }
@@ -297,8 +298,6 @@
     }
   
   }
-
-  /* Media md */
   
   @media screen and (min-width: 768px) {
     .col-md-1 {
@@ -407,8 +406,6 @@
     }
   
   }
-
-  /* Media lg */
   
   @media screen and (min-width: 992px) {
     .col-lg-1 {
